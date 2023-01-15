@@ -440,18 +440,12 @@ color: #727272;
     margin-top: 76px;
     margin-bottom: 130px;
     filter: grayscale(100%);
-    transition: filter 0.6s;
+    transition: filter 0.7s;
     
 }
 
 .sponsor-img:hover {
-    margin-left: 240px;
-    margin-right: 240px;
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    column-gap: 155px ;
-    margin-top: 76px;
-    margin-bottom: 130px;
+
     filter: grayscale(0%);
     
 }
