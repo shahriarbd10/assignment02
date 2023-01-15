@@ -29,7 +29,16 @@ body{
     width: 180px;
     height: 64px;
 }
+.btn-primary:hover{
+    background-color: rgba(12, 199, 127, 0.788);
+    
 
+}
+
+.btn-special:hover{
+    background-color: rgba(202, 137, 15, 0.726);
+
+}
 /* Header Styles */
 .header{
     height: 1322px;
@@ -264,8 +273,25 @@ height: 200px;
     padding-top: 50px;
     margin-bottom: 40px;
     
+    
+    
 }
 
+
+
+/* -----TRANSITION Added----- */
+.fact-image{
+    width: 45px;
+    height: 45px;
+    transition: width 0.6s , height 0.6s, transform 0.6s;
+}
+
+.fact:hover .fact-image{
+    width: 125px;
+    height: 125px;
+    transform: rotate(-5deg);
+       
+}
 
 .fact-description{
     margin-top: 24px;
@@ -273,7 +299,7 @@ height: 200px;
     text-align: left;
     color: #727272;
     font-weight: 400;
-font-size: 16px;
+    font-size: 16px;
 }
 .fact-info{
     margin-left: 240px;
@@ -291,7 +317,6 @@ font-size: 16px;
     font-size: 14px;
     color:#727272;
     margin-top: 5px;
-    
 }
 
 /*------------
@@ -311,9 +336,9 @@ font-size: 16px;
         align-items: left;
        background: rgba(252, 224, 183, 0.582);
         margin-bottom: 124.04px;
-        margin-left: 355px;
+        margin-left: 380px;
         border-radius: 15px;
-        margin-right: 355px;
+        margin-right: 380px;
     
     }
     
@@ -351,7 +376,13 @@ font-size: 16px;
         height: 30%;
        border-radius: 50%;
        margin-top: 70px;
+       transition: width 0.7s , height 0.7s, transform 0.8s;
         
+    }
+    .my-image:hover{
+        width: 65%;
+        height: 45%;
+        transform: rotate(-10deg);
     }
     
     .link-me{
@@ -377,14 +408,23 @@ text-align: center;
     font-weight: 700;
     font-size: 45px;
 }
+.sponsor-description{
+    margin-top: 24px;
+    text-align: center;
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+}
 .sponsor-img{
     margin-left: 240px;
     margin-right: 240px;
     display: grid;
     grid-template-columns: repeat(5,1fr);
     column-gap: 155px ;
-    margin-top: 126px;
+    margin-top: 76px;
     margin-bottom: 130px;
+    filter: grayscale(100%);
     
 }
 
@@ -409,3 +449,36 @@ text-align: center;
     color: #424242;
     padding: 39px 410px 39px 410px;
 }
+
+/* Responsive Section */
+
+@media screen and ( max-width: 576px) {
+    .header,.banner-container{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .banner-image{
+        width: 100%;
+        height: 100%;
+    }
+    nav, nav li , nav ul{
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .nav-title{
+        margin: 0;
+        
+    }
+    
+  
+}
+
+
+
+/* <!-- ...............................................
+.......Shahriar Hossain | github.com/shahriarbd10 |....
+.................................................... --> */
