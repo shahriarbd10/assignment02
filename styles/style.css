@@ -572,8 +572,9 @@ color: #727272;
     .fact-title{
         margin-top: 5px;
     }
-    
+
     .about-myself{
+        width: 100%;
         height: 100%;
         text-align: center;
         align-items: center;
