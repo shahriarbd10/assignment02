@@ -509,18 +509,19 @@ color: #727272;
 
     .special-features{
         flex-direction: column;
-        width: 100%;
-        height: 100%;
-        margin-left: 2px;
-        margin-right: 2px;
+        width: 90%;
+        height: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
       
     
     }
+  
     
     .special-features-left{
         width: 100%;
         margin: 0 ;
-        margin-bottom: 160px;
+        margin-bottom: 300px;
     }
     .special-feature-title{
         font-weight: 700;
@@ -574,8 +575,8 @@ color: #727272;
     }
 
     .about-myself{
-        width: 100%;
-        height: 100%;
+        width: 90%;
+        height: 90%;
         text-align: center;
         align-items: center;
         margin: 0;
@@ -583,6 +584,8 @@ color: #727272;
         font-size: 5px;
         padding: 0;
         margin-bottom: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
 
     }
     .my-image{
