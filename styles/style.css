@@ -242,3 +242,170 @@ height: 200px;
 }
 
 /* fact section */
+
+.fact-container{
+   
+    display: flex;
+    gap: 80px;
+    text-align: center;
+    margin-left: 290.08px;
+    margin-right: 290.08px;
+    margin-bottom: 180.08px;
+   
+
+}
+.fact{
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 50px;
+    margin-bottom: 40px;
+    
+}
+
+
+.fact-description{
+    margin-top: 24px;
+    margin-bottom: 100.08px;
+    text-align: left;
+    color: #727272;
+    font-weight: 400;
+font-size: 16px;
+}
+.fact-info{
+    margin-left: 240px;
+    margin-right: 1138px;
+}
+.fact-title{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin-top: 10px;
+}
+
+.fact-detail{
+    font-weight: 600;
+    font-size: 14px;
+    color:#727272;
+    margin-top: 5px;
+    
+}
+
+/*------------
+    fact session ended
+    ---------------- */
+
+
+    /* Extra Section  */
+    
+    .about-myself{
+        display: flex;
+        max-width: 1072px;
+        gap: 140px;
+        max-height: 723.3px;
+        flex-direction: row-reverse;
+        padding: 37px 35px 37px 35px ;
+        align-items: left;
+       background: rgba(252, 224, 183, 0.582);
+        margin-bottom: 124.04px;
+        margin-left: 355px;
+        border-radius: 15px;
+        margin-right: 355px;
+    
+    }
+    
+    .myself-title{
+    
+        text-align: left;
+        font-size: 60px;
+        font-weight: 800;
+        margin-bottom: 25px;
+    
+        
+    }
+    .myself-description{
+        text-align: left;
+        font-size: 28px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    
+    }
+    .web-ambition{
+        font-size: 26px;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+    
+    .ambition-point{
+        font-size: 22px;
+        font-weight: 400;
+        margin-bottom: 8px;
+    
+    }
+    
+    .my-image{
+        width: 40%;
+        height: 30%;
+       border-radius: 50%;
+       margin-top: 70px;
+        
+    }
+    
+    .link-me{
+        font-size: 26px;
+        margin-top: 18px;
+        margin-bottom: 10px;
+        
+    }
+    
+    .link-icon{
+        margin-right: 8px;
+       
+        
+    }
+    
+/* sponsor section */
+.sponsor-info{
+
+text-align: center;
+
+}
+.sponsor-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+.sponsor-img{
+    margin-left: 240px;
+    margin-right: 240px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 155px ;
+    margin-top: 126px;
+    margin-bottom: 130px;
+    
+}
+
+
+/* Footer Section */
+
+.footer{
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-right: 240px ;
+    margin-left: 240px;
+    margin-bottom: 216px;
+    align-items: center;
+}
+
+.footer-text{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    padding: 39px 410px 39px 410px;
+}
