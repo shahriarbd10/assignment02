@@ -513,13 +513,14 @@ color: #727272;
         height: 100%;
         margin-left: 2px;
         margin-right: 2px;
+      
     
     }
     
     .special-features-left{
         width: 100%;
-        
         margin: 0 ;
+        margin-bottom: 160px;
     }
     .special-feature-title{
         font-weight: 700;
@@ -537,7 +538,7 @@ color: #727272;
         align-items: center;
         justify-items: center;
         justify-content: center;
-        margin-left: 15px;
+        margin-left: 20px;
     
     }
     .fact-info{
@@ -568,6 +569,10 @@ color: #727272;
         padding: 10px 12px 10px 10px; 
         
     }
+    .fact-title{
+        margin-top: 5px;
+    }
+    
     .about-myself{
         height: 100%;
         text-align: center;
